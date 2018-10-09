@@ -1,0 +1,91 @@
+<!-- font awesome  & cdn -->
+<!-- Masked Input
+Magnific Popup
+uau.js
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider/owl.carousel.css">
+    <link rel="stylesheet" href="slider/owl.carousel.min.css">
+    <link rel="stylesheet" href="slider/owl.theme.default.min.css">
+    <link rel="stylesheet" href="slider/owl.theme.green.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="MasketInput/jquery.maskedinput.js">
+    <link rel="stylesheet" href="MasketInput/jquery.maskedinput.min.js">
+    <link rel="stylesheet" href="MasketInput/common.js">
+
+</head>
+<body>
+  <div class="box-1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+<div class="box-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+<div class="box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+  </div>
+
+
+
+
+
+<div class="slider">
+  <div class="owl-carousel owl-theme">
+      <div class="item"><h4><img src="2.jpg"></h4></div>
+      <div class="item"><h4><img src="3.jpg"></h4></div>
+      <div class="item"><h4><img src="4.jpg"></h4></div>
+      <div class="item"><h4><img src="5.jpg"></h4></div>
+      <div class="item"><h4><img src="6.jpg"></h4></div>
+      <div class="item"><h4><img src="7.jpg"></h4></div>
+      <div class="item"><h4><img src="2.jpg"></h4></div>
+      <div class="item"><h4><img src="3.jpg"></h4></div>
+      <div class="item"><h4><img src="4.jpg"></h4></div>
+  </div>
+</div>
+
+<i class="fas fa-arrow-alt-circle-left"></i>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+
+
+
+<script src="common.js"></script>
+<script src="slider/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+jQuery(function($){
+   $("#date").mask("99/99/9999");
+   $("#phone").mask("(999) 999-9999");
+   $("#tin").mask("99-9999999");
+   $("#ssn").mask("999-99-9999");
+});
+</script>
+
+<form>
+    <fieldset>
+      <legend>Регистрация</legend>
+      <label for="name">введите логин</label>
+<input type="text" placeholder="Логин" id="name"><br>
+<label for="pass">введите пароль</label>
+<input type="text" placeholder="телефон" id="phone"><br>
+<input type="file" name="" placeholder="выберите файл"><br>
+<input type="radio" name="browser" id="opera">
+<input type="radio" name="browser" id="mozila"><br>
+<input type="checkbox"><input type="checkbox"><input type="checkbox">
+<input type="submit">
+<input type="reset">
+</fieldset>
+</form>
+
+</body>
+</html>

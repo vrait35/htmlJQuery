@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>й</title>
+
+
+  <!-- Magnific Popup core JS file -->
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jquery.magnific-popup.js">
+<link rel="stylesheet" href="jquery.magnific-popup.min.js">
+<link rel="stylesheet" href="magnific-popup.css">
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+$('.popup-gallery').magnificPopup({
+delegate: 'a',
+type: 'image',
+tLoading: 'Загрузка изображения #%curr%...',
+gallery: {
+   enabled: true,
+   navigateByImgClick: true,
+   preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+}
+});
+
+});
+
+</script>
+
+</head>
+<body>
+
+  <script type="text/javascript">
+
+
+
+      </script>
+
+
+  <div class="popup-gallery">
+   <a href="9.jpg" rel="alternate"><img src="9.jpg" alt="" /></a>
+
+  </div>
+
+</body>
+</html>
